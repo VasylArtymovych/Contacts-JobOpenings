@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center my-6">
     <Card :title="cardTitle" class="w-[350px]">
       <div class="space-y-4">
         <AppInput v-model.trim="contactForm.name" placeholder="Name" />
